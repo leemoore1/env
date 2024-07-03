@@ -15,4 +15,5 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # Update Oh My Zsh plugin list
 sed -i 's/plugins=(git)/plugins=(git helm minikube kubectl zsh-autosuggestions zsh-syntax-highlighting)/g' ~/.zshrc
 
-source ~/.zshrc
+# Set default shell to ZSH
+sudo chsh -s /usr/bin/zsh $USER
