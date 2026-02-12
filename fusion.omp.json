@@ -5,14 +5,15 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#007ACC",
-          "foreground": "#222222",
+          "background": "#444444",
+          "foreground": "#cccccc",
           "options": {
             "style": "austin",
             "threshold": 321
           },
-          "style": "plain",
+          "style": "diamond",
           "template": " {{ .FormattedMs }} ",
+          "trailing_diamond": "\ue0b4",
           "type": "executiontime"
         },
         {
